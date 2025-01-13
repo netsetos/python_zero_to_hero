@@ -1,6 +1,7 @@
-# python_zero_to_hero
-Python Zero to Hero 15 Days
+# Python Zero to Hero 15 Days
+
 ![alt text](python_bootcamp.png)
+
 ## Topics to be covered 
 -  ✅ Basics Of Python
 -  ✅ Control Flow and Operators
@@ -110,9 +111,9 @@ Python Zero to Hero 15 Days
 ### Day 15
 - ✅ Leet Code
   - [x] LEET CODE 49 Index of Groups of strings that are ANAGRAMS
-  - [x] Leet Code 53. Maximum Subarray
-  - [x] Leet Code 26. Remove Duplicates from Sorted Array
-  - [x] Leet Code 88. Merge Sorted Array
-  - [x] LEET CODE 28 - [x] Find Index of First Non-Repeating Character?
+  - [x] Leet Code 53 Maximum Subarray
+  - [x] Leet Code 26 Remove Duplicates from Sorted Array
+  - [x] Leet Code 88 Merge Sorted Array
+  - [x] LEET CODE 28 Find Index of First Non-Repeating Character?
 ### Day 16
 - ✅ Django Project on GCP 
