@@ -1,5 +1,6 @@
 # python_zero_to_hero
 Python Zero to Hero 15 Days
+![alt text](https://github.com/netsetos/python_zero_to_hero/blob/main/python_bootcamp.png)
 ## Topics to be covered 
 -  ✅ Basics Of Python
 -  ✅ Control Flow and Operators
