@@ -34,7 +34,7 @@ print(x)        # Modulus and Assign: 1
 x = 10
 y = 20
 
-print(x == y)   # Equal to: False
+print(x == y)   # Equal to: Falsenetsetostech
 print(x != y)   # Not Equal to: True
 print(x > y)    # Greater than: False
 print(x < y)    # Less than: True
