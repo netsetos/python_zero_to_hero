@@ -18,6 +18,7 @@ x = 5
 print(x)        # Assign: 5
 
 x += 2
+x=x+2
 print(x)        # Add and Assign: 7
 
 x *= 3
@@ -34,7 +35,7 @@ print(x)        # Modulus and Assign: 1
 x = 10
 y = 20
 
-print(x == y)   # Equal to: Falsenetsetostech
+print(x == y)   # Equal to: False
 print(x != y)   # Not Equal to: True
 print(x > y)    # Greater than: False
 print(x < y)    # Less than: True
@@ -44,7 +45,7 @@ print(x <= 5)   # Less than or equal: False
 
 # 6. Membership Operators
 # Membership Operators
-my_list = [1, 2, 3, 4]
+my_list = [1, 2, 3, 4]  # whether list is mutable or immutable
 my_string = "Python"
 
 print(2 in my_list)       # True (2 is in the list)
@@ -53,9 +54,9 @@ print('P' in my_string)   # True ('P' is in the string)
 print('z' not in my_string) # True ('z' is not in the string)
 
 #Identity Operators
-x = [1, 2, 3]
-y = [1, 2, 3]
-z = x
+x = [1, 2, 3]   x ---->  "x100ydd"  ----> [1,2,3]
+y = [1, 2, 3]   y  ----> "y245bnb"  ----> [1,2,3]
+z = x           z = "x100ydd"
 
 print(x is z)       # True (x and z point to the same object)
 print(x is y)       # False (x and y are different objects, even if their content is the same)
