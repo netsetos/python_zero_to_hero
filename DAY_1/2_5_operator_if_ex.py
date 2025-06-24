@@ -10,7 +10,7 @@
 #     print("Username must be at least 5 characters long.")
 
 
-score = 90
+score = 99
 level = 1
 
 if score >= 100:
