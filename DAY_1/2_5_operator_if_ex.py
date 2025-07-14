@@ -3,11 +3,15 @@
 #
 # if len(username) >= 5:
 #     if len(password) >= 8:
-#         print("Registration successful!")
+#         print("Registration succ
+#         essful!")
 #     else:
-#         print("Password must be at least 8 characters long.")
+#         print("Password must b
+#         e at least 8
+#         characters long.")
 # else:
-#     print("Username must be at least 5 characters long.")
+#     print("Username must be
+#     at least 5 characters long.")
 
 
 score = 99
