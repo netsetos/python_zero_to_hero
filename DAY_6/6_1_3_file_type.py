@@ -78,7 +78,7 @@ import folium
 # 👉 Source: https://api.waqi.info (World Air Quality Index)
 # 📌 You’ll need a free API key from: https://aqicn.org/data-platform/token/#/
 
-API_KEY = "e8869f17eaa56650330f20533d5e1290c000fef6"  # Replace with your real API key
+API_KEY = "e8869f17eaa56650330f20533d5e1290c000sasa"  # Replace with your real API key
 cities = ["Delhi", "Mumbai", "Chennai", "Kolkata", "Lucknow"]
 
 def get_aqi(city):
