@@ -1,0 +1,16 @@
+[
+{
+  "name": "Pranav",
+  "age": 18,
+  "city": "Jaipur",
+  "height": 160,
+  "weight":"67"
+},
+  {
+  "name": "Sarthak",
+  "age": 30,
+  "city": "Hyd",
+  "height": 160,
+  "weight":"67"
+}
+  ]

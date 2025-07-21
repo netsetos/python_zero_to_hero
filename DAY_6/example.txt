@@ -1,0 +1,19 @@
+Topics to be covered
+✅ Basics Of Python
+✅ Control Flow and Operators
+✅ Data Structures
+✅ Functions and Recursion
+✅ Strings and Regular Expression
+✅ Object Oriented Programming
+✅ File Handling
+✅ Errors and Exceptions
+✅ Advance Topics
+✅ Projects and Interview Questions
+Day 1
+✅ Basics Of Python
+ What is Python ?
+ Fundamentals of Python
+ Install python and pip in Windows
+ Installation of PyCharm on Windows
+✅ Control Flow and Operators
+ Operators in Python

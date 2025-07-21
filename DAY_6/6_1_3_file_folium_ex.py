@@ -38,9 +38,9 @@
 # m.save("indian_cities_map.html")
 # print("✅ Indian cities map saved as 'indian_cities_map.html'")
 
-import requests
-import folium
-
+# import requests
+# import folium
+#
 # # Step 1: Fetch earthquake data
 # url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
 # response = requests.get(url)
@@ -79,7 +79,7 @@ import folium
 # 📌 You’ll need a free API key from: https://aqicn.org/data-platform/token/#/
 
 API_KEY = "e8869f17eaa56650330f20533d5e1290c000sasa"  # Replace with your real API key
-cities = ["Delhi", "Mumbai", "Chennai", "Kolkata", "Lucknow"]
+cities = ["Delhi", "Mumbai", "Chennai", "Hyderabad", "Lucknow","Faridabad","Jabalpur"]
 
 def get_aqi(city):
     url = f"https://api.waqi.info/feed/{city}/?token={API_KEY}"

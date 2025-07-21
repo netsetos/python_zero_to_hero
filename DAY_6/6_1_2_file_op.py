@@ -40,15 +40,47 @@
 # else:
 #     print("File does not exist.")
 
-import os
-
-if os.path.exists("example.txt"):
-    os.remove("example.txt")
-    print("File deleted.")
-else:
-    print("File not found.")
+# import os
+#
+# if os.path.exists("example.txt"):
+#     os.remove("example.txt")
+#     print("File deleted.")
+# else:
+#     print("File not found.")
 
 
 #File Closing
 
+#1. Copying File Content
+# with open("source.txt", "r") as src, open("destination.txt", "w") as dest:
+#     dest.write(src.read())
+
+# with open("example.txt", "r") as file:
+#     content = file.read()  # TO READ A FILE
+#     print(content)
+#     lines = content.split("\n")  # SPLIT is DOING EVERY LINE TO ELEMENT OF ARRAY
+#     print(lines)
+#     words = content.split()
+#     print(words)
+#     print(f"Lines: {len(lines)}, Words: {len(words)}, Characters: {len(content)}")
+
+
+
+# try:
+#     with open("example1.txt", "r") as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("The file does not exist in our environment please check in folder 2")
+
+# with open("python_bootcamp.png", "rb") as file:
+#     binary_data = file.read()
+#     print(binary_data[:100])  # Print first 20 bytes
+
+
+
+
+with open("example.txt", "r") as file:
+    file.seek(100)  # Move to the 10th byte
+    print(file.read())  # Read from the 10th byte onward
+    print("Cursor Position:", file.tell())  # Get the current position
 

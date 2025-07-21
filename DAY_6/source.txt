@@ -1,0 +1,12 @@
+Day 2
+✅ Control Flow and Operators
+ Logical & Bitwise Operators in Python
+ Python Indentation & Comments
+ Standard Input & Output
+ Conditional Statement if-else
+ Control Statement - [x] while loop
+ Control Statement - [x] for loop
+ Armstrong Numbers
+ Swapping two numbers with or without using third variable
+ Loop Controls - [x] Break and Continue Statements
+ Printing Stars '*' in Pyramid
