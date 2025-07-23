@@ -18,3 +18,13 @@ c = Child()
 c.show_grandparent()   # Inherited from Grandparent
 c.show_parent()        # Inherited from Parent
 c.show_child()         # Defined in Child
+
+'''
+Grandparent
+     ▲
+     |
+  Parent
+     ▲
+     |
+   Child
+'''

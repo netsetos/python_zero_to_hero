@@ -1,0 +1,99 @@
+@startuml
+' ---------- Base Class ----------
+class Upload {
+  +title: str
+  +description: str
+  +uploader: Channel
+  +upload_date: datetime
+  +get_details(): str
+}
+
+' ---------- Video Types ----------
+class Video {
+  +duration: int
+  +views: int
+  +comments: List
+  +increment_views(): void
+  +add_comment(): void
+  +get_details(): str
+}
+
+class Short {
+  +duration: int
+  +views: int
+  +MAX_DURATION: int
+  +increment_views(): void
+  +get_details(): str
+}
+
+class PremiumVideo {
+  +subscription_required: bool
+  +ad_free: bool
+  +get_details(): str
+}
+
+class LiveStream {
+  +duration: int
+  +views: int
+  +is_live: bool
+  +chat_messages: List
+  +start_stream(): void
+  +end_stream(): void
+  +get_details(): str
+}
+
+' ---------- User and Channel ----------
+class User {
+  +username: str
+  +email: str
+  +subscribed_channels: List
+  +liked_videos: List
+  +subscribe_to_channel(): void
+  +like_video(): void
+  +create_comment(): void
+}
+
+class Channel {
+  +channel_name: str
+  +owner: User
+  +videos: List
+  +subscribers: List
+  +upload_video(): void
+  +add_subscriber(): void
+  +display_channel_info(): void
+}
+
+' ---------- Comment ----------
+class Comment {
+  +user: User
+  +text: str
+}
+
+' ---------- Interactive Session ----------
+class InteractiveSession {
+  +questions: List
+  +answers: Dict
+  +ask_question(): void
+  +provide_answer(): void
+}
+
+' ---------- LiveCodingStream ----------
+class LiveCodingStream {
+  +display_interactive_session_summary(): void
+}
+
+' ---------- Inheritance Relationships ----------
+Upload <|-- Video
+Upload <|-- Short
+Upload <|-- LiveStream
+Video <|-- PremiumVideo
+LiveStream <|-- LiveCodingStream
+InteractiveSession <|-- LiveCodingStream
+
+' ---------- Associations ----------
+User --> Channel : subscribes
+User --> Video : likes/comments
+Channel --> Video : uploads
+Video *-- Comment : has
+LiveStream ..> InteractiveSession : uses
+@enduml

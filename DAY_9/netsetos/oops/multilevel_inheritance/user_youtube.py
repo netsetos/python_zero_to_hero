@@ -15,3 +15,11 @@ mc = MonetizedCreator()
 mc.login()        # Inherited from User
 mc.upload()       # Inherited from Creator
 mc.enable_ads()   # Defined in MonetizedCreator
+
+'''
+     User
+      ▲
+   Creator
+      ▲
+MonetizedCreator
+'''

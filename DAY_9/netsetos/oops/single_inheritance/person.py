@@ -12,3 +12,9 @@ class Student(Person):
 s = Student()
 s.display_name()   # Inherited from Person
 s.display_course() # Defined in Student
+'''
+Person
+  ▲
+  |
+Student
+'''

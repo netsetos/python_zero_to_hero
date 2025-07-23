@@ -10,3 +10,10 @@ class Creator(User):  # Inheriting from User
 c = Creator()
 c.login("Tech Creator")     # Inherited from User
 c.upload_video("Python OOP")  # Defined in Creator
+
+'''
+   User
+     ▲
+     |
+  Creator
+'''
