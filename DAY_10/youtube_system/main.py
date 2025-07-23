@@ -29,7 +29,7 @@ def main():
     channel1.videos.append(stream)
 
     # 5. Upload a premium video
-    premium_video = PremiumVideo("Advanced OOP", "Deep dive into Python OOP", channel1, duration=1800)
+    premium_video = PremiumVideo("Advanced OOP  ", "Deep dive into Python OOP", channel1, duration=1800)
     channel1.videos.append(premium_video)
 
     # 6. New user subscribes, likes, and comments
