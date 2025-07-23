@@ -1,4 +1,4 @@
-from youtube_system.core.upload import Upload
+from DAY_10.youtube_system.core.upload import Upload
 
 class Short(Upload):
     MAX_DURATION = 60
@@ -6,7 +6,7 @@ class Short(Upload):
     def __init__(self, title, description, uploader, duration):
         if duration > self.MAX_DURATION:
             raise ValueError(f"Shorts cannot be longer than {self.MAX_DURATION} seconds. ")
-        super().__init__(self, title, description, uploader)
+        super().__init__(title, description, uploader)
         self.duration = duration
         self.views = 0
 

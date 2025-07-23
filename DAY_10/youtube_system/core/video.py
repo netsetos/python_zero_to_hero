@@ -1,4 +1,4 @@
-from youtube_system.core.upload import Upload
+from DAY_10.youtube_system.core.upload import Upload
 
 class Video(Upload):
     def __init__(self, title, description, uploader, duration):

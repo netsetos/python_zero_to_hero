@@ -1,4 +1,4 @@
-from youtube_system.core.comment import Comment
+from DAY_10.youtube_system.core.comment import Comment
 
 class User:
     def __init__(self, username, email):
