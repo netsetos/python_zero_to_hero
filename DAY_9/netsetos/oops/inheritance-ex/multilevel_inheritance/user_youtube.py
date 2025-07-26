@@ -11,7 +11,7 @@ class MonetizedCreator(Creator):
         print("Ads enabled on video")
 
 # Demonstrate multilevel inheritance
-mc = MonetizedCreator()
+mc = User()
 mc.login()        # Inherited from User
 mc.upload()       # Inherited from Creator
 mc.enable_ads()   # Defined in MonetizedCreator
